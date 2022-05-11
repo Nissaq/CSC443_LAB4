@@ -8,10 +8,8 @@
 </head>
 <body>
     <?php #script handle calculator
-    ?>
 
-    if (isset($source))
-    {
+    if (isset($source)){
         if($source == 'calculator.html')
         {
             if ((is_numeric($quantity)))
@@ -34,5 +32,6 @@
     {
         echo "<p><b> You have accessed this page inappropriately !</b></p>";
     }
+    ?>
 </body>
 </html>
